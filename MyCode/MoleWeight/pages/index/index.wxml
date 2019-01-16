@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<view>
+    <text class="subtitle">分子量计算，区分大小写</text>
+</view>
+<view>
+    <image class="logo1" mode="aspectFit" src="./logo/mole_logo.png"></image>
+    <form catchsubmit="formSubmit" catchreset="formReset">
+        <input name="inputValue" type="text" placeholder="For example: GdMn2O5" value="{{inputValue}}" />
+        <button type="primary" formType="submit">计算</button>
+        <button type="warn" formType="reset">清空</button>
+        <view name="calcResult">分子量为：{{calcResult}}</view>
+    </form>
+</view>

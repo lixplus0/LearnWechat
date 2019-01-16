@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/cover/index",
+    "pages/swiper/swiper",
+    "pages/scroll-view/scrollview",
+    "pages/view/index",
+    "pages/movable/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

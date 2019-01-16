@@ -1,0 +1,17 @@
+@import '../../common/common.wxss';
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;}
+.flex-item{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center; /*水平垂直居中*/
+  font-size: 2em; 
+  }
+.bc_green {background: green;width:100px; height: 100px;}
+.bc_red {background: red;width:100px; height: 100px;}
+.hover_red {background: black;}
+.bc_blue {background: blue;width:100px; height: 100px;}

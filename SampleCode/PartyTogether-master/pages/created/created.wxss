@@ -1,0 +1,27 @@
+/* Created.wxss */
+.created .section {
+  padding-bottom: 25px;
+}
+
+.img-banner{
+  background-color:#FFF;
+  margin: auto;
+  display: block;
+  padding-top: 50px;
+  height:120px;
+}
+
+.welcome-label{
+  width: 100vw;
+  text-align: center;
+  font-weight: bold;
+  font-family: 宋体;
+  font-size: 18px;
+}
+
+.btn-area {
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+  font-size: 15px;
+}

@@ -1,0 +1,34 @@
+<!--Created.wxml-->
+<view class="created">
+  <view class="banner section">
+    <image class="img-banner" src="{{check_mark}}" mode="{{mode}}"></image>
+  </view>
+  <view class="welcome-label section">
+    <label>{{submit_name}}，感谢您的参与，我们7月母校见！</label>
+  </view>
+  <!--
+  <view class="btn-area section">
+    <button class="button" type="primary" bindtap="btn_confirm">确定</button>
+  </view>
+  -->
+</view>
+
+<!--
+<view class="welcome">
+  <image class="img-banner" src="{{welcome_msg}}" style="height:120px" mode="{{mode}}"></image>
+</view>
+-->
+
+
+
+<!--
+<view class="text-label">
+  <label>感谢您的参与，我们期待与您相见！</label>
+</view>
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <map style="width: 100%; height: 300px;" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}">
+    </map>
+  </view>
+</view>
+-->

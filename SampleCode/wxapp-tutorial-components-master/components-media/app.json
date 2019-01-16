@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/video/video",
+        "pages/camera/index",
+        "pages/image/image",
+        "pages/audio/audio"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    }
+}
