@@ -1,0 +1,31 @@
+page{
+  height: 100%;
+  }
+.danmu {
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: black;
+}
+.banner {
+  display:flex;
+  height:15%;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  background-color: #034;
+  margin:3% 0;
+  font-weight: bold;
+  border-radius:15px;
+}
+.item1{
+  color:red;
+}
+.item2{
+  color:white;
+}
+.item3{
+  color:chartreuse;
+}

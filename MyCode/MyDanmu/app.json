@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/danmu/danmu",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我的手持弹幕",
+    "navigationBarTextStyle":"white"
+  }
+}

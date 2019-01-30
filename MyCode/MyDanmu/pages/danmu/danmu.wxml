@@ -1,0 +1,7 @@
+<view class="danmu">
+  <view class="banner item1">手持情书</view>
+  <view class="banner item2">
+    <view animation="{{animationData}}">手持弹幕 行走的弹幕</view>
+  </view>
+  <view class="banner item3">我😍陈奕迅</view>
+</view>
