@@ -1,0 +1,49 @@
+page{
+  height: 100%;
+  }
+
+.img-banner {
+  background-color: #fff;
+  margin: auto;
+  display: block;
+  height: 110px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.info-area {
+  padding-top: 20px;
+}
+
+.info-area .section {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.flex-wrp {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-title {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.radio-group {
+  line-height: 35px;
+  padding-left: 25px;
+}
+
+.flex-btn {
+  width: 150px;
+}

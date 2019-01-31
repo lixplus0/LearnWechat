@@ -1,0 +1,22 @@
+<!-- index.wxml -->
+<view class="container">
+  <block wx:if="{{!hasUserInfo && canIUse}}">
+    <view class="userinfo">
+      <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取头像昵称</button>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">点击授权来使用小程序</text>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="btncontainer">
+      <block wx:for="{{mottos}}" wx:key="url">
+        <button type="default" size="{{primarySize}}" data-url="{{item.url}}" bindtap="toMiniApp" class="btn">{{item.title}}</button>
+      </block>
+    </view>
+  </block>
+</view>

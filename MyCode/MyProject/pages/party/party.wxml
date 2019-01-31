@@ -1,0 +1,64 @@
+<!-- 我的Party起始 -->
+<!-- <view class="banner">
+  <image class="img-banner" src="{{logo}}" mode="{{mode}}"></image>
+</view> -->
+
+<view class="main">
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="info-area">
+
+      <view class="section flex-wrp">
+        <view class="info-title">
+          姓名：
+        </view>
+        <view>
+          <input name="input_name" placeholder="请输入姓名" type="text" auto-focus required confirm-type="done" />
+        </view>
+      </view>
+
+      <view class="section flex-wrp">
+        <view class="info-title">
+          电话：
+        </view>
+        <view>
+          <input name="input_phone" placeholder="请输入电话" type="number" auto-focus required maxlength="11" confirm-type="done" />
+        </view>
+      </view>
+
+      <view class="section flex-wrp">
+        <view class="info-title">
+          是否出席：
+        </view>
+        <view>
+          <switch name="input_attend" checked="{{will_attend}}" />
+        </view>
+      </view>
+
+      <view class="section">
+        <view class="info-title">
+          日期：
+        </view>
+        <view>
+          <radio-group name="input_date" class="radio-group">
+            <radio value="2018.7.08" checked="{{date_checked}}">2018.7.08 - 2018.7.09</radio>
+            <radio value="2018.7.15">2018.7.15 - 2018.7.16</radio>
+          </radio-group>
+        </view>
+      </view>
+      
+      <view class="section">
+        <view>
+          <label class="info-title">地点：</label>
+          <label>南京大学鼓楼校区</label>
+        </view>
+      </view>
+      
+      <view class="section flex-wrp">
+          <button class="flex-btn" form-type='submit' type='primary'>提交</button>
+          <button class="flex-btn" form-type='reset' type='warn'>重置</button>
+      
+      </view>
+    </view>
+  </form>
+</view>
